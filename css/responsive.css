@@ -1,0 +1,356 @@
+/** @format */
+
+@media (max-width: 1620px) {
+  .dashboard-revinew-area li {
+    font-size: 30px;
+  }
+  .dashboard-revinew-area li.count {
+    font-size: 33px;
+  }
+  .sidebar-menu .menu a,
+  .username {
+    font-size: 15px;
+  }
+  .sidebar {
+    padding: 35px 0 10px 0;
+  }
+  .user {
+    margin-bottom: 30px;
+  }
+  .search-header #search {
+    width: 100%;
+    border: 1px solid #434342;
+  }
+  .search-header form,
+  .search-header form {
+    width: 100%;
+  }
+  .search-header .row {
+    min-width: 100%;
+  }
+  .search-header label {
+    font-size: 26px;
+  }
+  .checkbox {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+/* Normal desktop :1200px. */
+@media (max-width: 1500px) {
+  .form-right {
+    padding-right: 30px;
+  }
+  .form-left {
+    padding-left: 30px;
+  }
+  .form-left .img-fluid {
+    max-width: 80%;
+  }
+  .main-area {
+    padding: 4px 10px;
+  }
+  .main-content {
+    padding: 15px;
+  }
+  .content-area {
+    padding: 15px;
+  }
+  a.large-btn {
+    padding: 9px 16px;
+    font-size: 15px;
+  }
+  .search-header label {
+    font-size: 22px;
+  }
+  .checkbox {
+    height: 20px;
+    width: 20px;
+  }
+  .sidebar-menu .menu a,
+  .username {
+    padding: 14px 5px;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  H3 {
+    font-size: 20px;
+  }
+  .from-area input::placeholder {
+    font-size: 16px;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (max-width: 1200px) {
+  .form-right {
+    padding-right: 0px;
+  }
+  .form-right form {
+    max-width: 450px;
+  }
+  .form-left .img-fluid {
+    max-width: 80%;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .sidebar {
+    transform: translateX(-100%);
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9990;
+  }
+  .main-area {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .search-header .row > .col-lg-6 {
+    margin-bottom: 15px;
+  }
+  .toggle-menu {
+    transition: 0.35s;
+    width: 35%;
+    transform: translateX(0) !important;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (max-width: 991px) {
+  .form-right {
+    padding-right: 0px;
+    padding-bottom: 100px;
+  }
+  .login-form-area {
+    background: #fff;
+  }
+  .form-right.text-right {
+    text-align: left !important;
+  }
+  .form-right form {
+    max-width: inherit;
+    width: 100%;
+  }
+  .form-left .img-fluid {
+    max-width: 70%;
+  }
+  .form-right h2 {
+    color: #444;
+    margin-bottom: 50px;
+  }
+  .form-left {
+    padding: 40px 0px 60px 0px;
+  }
+  .form-right input {
+    border-color: #ccc;
+    margin-bottom: 30px;
+  }
+  .checkbox-wrap label {
+    margin-bottom: 30px;
+    color: #878787;
+  }
+  .form-right .checkbox-wrap input[type="checkbox"] + label:before {
+    border: 3px solid #ccc;
+  }
+  .checkbox-wrap input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #ccc;
+    border-color: #ccc;
+  }
+  .info-area {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    order: 999;
+  }
+  .search-header .row {
+    width: inherit;
+  }
+  .dashboard-revinew-area li {
+    font-size: 20px;
+  }
+  .dashboard-revinew-area li.count {
+    font-size: 25px;
+  }
+  a.sm-btn {
+    font-size: 15px;
+    padding: 5px 12px;
+  }
+  .divider {
+    height: 35px;
+    margin: 20px 0;
+  }
+  td,
+  th {
+    font-size: 12px;
+  }
+  td,
+  th {
+    padding: 2px;
+  }
+  .sm-mr-0 {
+    margin-right: 0 !important;
+  }
+  .checkbox-form {
+    justify-content: flex-end !important;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .main-table {
+    overflow: scroll;
+  }
+  #accountId {
+    background-color: #dddedf;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+  }
+  .pagination {
+    margin-top: 15px;
+  }
+  .dashboard .search-input {
+    margin-bottom: 25px;
+  }
+  .meta-box {
+    padding: 0 40px;
+    justify-content: space-between !important;
+  }
+
+  .form-right {
+    padding-right: 0px;
+    padding-bottom: 100px;
+  }
+  .login-form-area {
+    background: #fff;
+  }
+  .form-right.text-right {
+    text-align: left !important;
+  }
+  .form-right form {
+    max-width: inherit;
+    width: 100%;
+  }
+  .form-left .img-fluid {
+    max-width: 70%;
+  }
+  .form-right h2 {
+    color: #444;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .form-left {
+    padding: 40px 0px 60px 0px;
+  }
+  .form-right input {
+    border-color: #ccc;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+  }
+  .checkbox-wrap label {
+    margin-bottom: 30px;
+    color: #878787;
+    font-size: 20px;
+  }
+  .form-right .checkbox-wrap input[type="checkbox"] + label:before {
+    border: 3px solid #ccc;
+  }
+  .checkbox-wrap input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #ccc;
+    border-color: #ccc;
+  }
+  .loging-btn button {
+    height: 50px;
+    line-height: 50px;
+  }
+  .container {
+    width: 450px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  a.large-btn {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+  .search-header label {
+    font-size: 16px;
+  }
+  .main-area {
+    padding: 0;
+  }
+  .main-content {
+    padding: 8px;
+    margin: 0;
+  }
+
+  .toggle-menu {
+    transition: 0.35s;
+    width: 45%;
+  }
+  .dashboard-revinew-area li {
+    font-size: 14px;
+  }
+  .dashboard-revinew-area li.count {
+    font-size: 16px;
+  }
+  a.sm-btn {
+    font-size: 12px;
+    padding: 3px 7px;
+  }
+}
+
+/* Large Mobile :480px.
+@media (max-width: 767px) {
+  
+} */
+@media (max-width: 480px) {
+  .header-top_logo img {
+    width: 70%;
+  }
+  .header-top_logo {
+    width: 50%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  a.large-btn {
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+  .search-header label {
+    font-size: 14px;
+  }
+  .main-area {
+    padding: 0;
+  }
+  .main-content {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .dashboard-revinew-area .col-5,
+  .dashboard-revinew-area .col-4,
+  .dashboard-revinew-area .col-6 {
+    padding: 0 5px;
+  }
+  .checkmark {
+    height: 18px;
+    width: 18px;
+  }
+  .checkbox-label .checkmark:after {
+    left: 6px;
+    top: 3px;
+}

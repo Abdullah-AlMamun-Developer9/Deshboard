@@ -1,0 +1,207 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Name - HTML Template</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- HEader area start -->
+    <header>
+      <div class="container-fluid">
+        <div class="header-top">
+          <div class="menu-btn">
+            <span class="menu-logo first"></span>
+            <span class="menu-logo middle1 middle"></span>
+            <span class="menu-logo middle2 middle"></span>
+            <span class="menu-logo last"></span>
+          </div>
+          <a href="#" class="header-top_logo d-flex">
+            <img src="./img/header-logo.png" alt="logo" />
+          </a>
+          <div class="login-logout ml-auto">
+            <a href="#" class="d-none login"></a>
+              <i class="fas fa-sign-in-alt"></i>
+              Log In
+            </a>
+            <a href="./index.html" class="logout">
+              <i class="fas fa-sign-out-alt"></i>
+              Log Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="sidebar">
+      <div class="sidebar-main">
+        <div class="sidebar-logo">
+          <img src="./img/sidebar-logo.png" alt="sidebar-logo" />
+        </div>
+        <div class="user">
+          <a href="" class="username uppercase">Username</a>
+        </div>
+        <div class="sidebar-menu">
+          <ul class="menu">
+            <li>
+              <a class="uppercase" href="dashboard.html">
+                <img src="./img/dashboard.png" alt="" />
+                DASHBOARD
+              </a>
+            </li>
+            <li>
+              <a class="uppercase active" href="account.html">
+                <img src="./img/addaccount.svg" alt="" />
+                CREATE ACCOUNT
+              </a>
+            </li>
+            <li>
+              <a class="uppercase" href="accountList.html">
+                <img src="./img/dashboard.png" alt="" />
+                MANAGE ACCOUNT
+              </a>
+            </li>
+            <li>
+              <a class="uppercase" href="">
+                <img src="./img/settings.svg" alt="" />
+                SETTINGS
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sidebar-footer">
+        <div class="footer-copyright">
+          <p>Reset Password</p>
+        </div>
+      </div>
+    </div>
+    <!-- header area end -->
+
+    <div class="main-area">
+      <div class="container-fluid">
+        <div class="main-header">
+          <h1>Add / Manage Account</h1>
+        </div>
+        <div class="main-content">
+          <div class="content-area">
+            <div class="search-header">
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center">
+                  <a class="uppercase large-btn mr-auto" href="#">
+                    <i class="fas mr-2 fa-plus"></i>
+                    Add Account
+                  </a>
+                  <form class="checkbox-form">
+                    <label class="checkbox-label mr-4" for="brand">
+                      brand
+                      <input
+                        class="checkbox"
+                        type="checkbox"
+                        name=""
+                        id="brand"
+                      />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-label" for="location">
+                      Location
+                      <input
+                        class="checkbox"
+                        type="checkbox"
+                        name=""
+                        id="location"
+                      />
+                      <span class="checkmark"></span>
+                    </label>
+                  </form>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                  <form class="search-form">
+                    <div class="search-input">
+                      <input type="text" name="search" id="search" />
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Account Id"
+                      id="accountId"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="from-area">
+              <form>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <input type="text" placeholder="brand / location" />
+                    <input type="text" placeholder="website" />
+                    <input type="text" placeholder="contact name" />
+                    <input type="text" placeholder="contact" />
+                    <input type="text" placeholder="package details" />
+                    <input type="text" placeholder="billing cycle" />
+                    <input type="text" placeholder="" />
+                  </div>
+                  <div class="col-lg-8 row">
+                    <div class="col-lg-6">
+                      <input type="text" placeholder="Email" />
+                      <input type="text" placeholder="Password" />
+                      <input type="text" placeholder="Account Manager" />
+                      <input type="text" class="note" placeholder="Notes" />
+                    </div>
+                    <div class="col-lg-6 info-area">
+                      <h3>Customer Since</h3>
+                      <h3>2020-12-12</h3>
+                      <h3>Total# of locations</h3>
+                      <h3>18</h3>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="select d-flex align-items-center">
+                        <div class="col-lg-6">
+                          <input type="text" class="upload" />
+                        </div>
+                        <a href="" class="sm-btn">Select</a>
+                      </div>
+                      <div class="upload-area col-lg-6">
+                        <h4>Batch Upload</h4>
+                        <a href="3" class="sm-btn">Upload</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <a href="#" class="large-btn save-btn">Save</a>
+        </div>
+        <div class="main-footer">
+          <p class="copyright-text">
+            Copyright @ Safe Approach. All right reserved
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
